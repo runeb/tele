@@ -1,11 +1,8 @@
 export default {
-  type: "object",
-  name: "hero",
+  type: "document",
+  name: "valueProp",
+  title: "Value proposition",
   fields: [
-    {
-      type: "string",
-      name: "eyebrow"
-    },
     {
       type: "string",
       name: "headline"
@@ -13,10 +10,6 @@ export default {
     {
       type: "simpleRichText",
       name: "body"
-    },
-    {
-      type: "image",
-      name: "image"
     },
     {
       type: "cta",

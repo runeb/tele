@@ -7,8 +7,16 @@ export default {
       name: "text"
     },
     {
-      type: "url",
+      type: "string",
+      name: "accessibility",
+    },
+    {
+      type: "string",
       name: "link"
     },
+    {
+      type: "config",
+      name: "config"
+    }
   ]
 }
