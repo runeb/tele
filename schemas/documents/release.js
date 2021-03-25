@@ -26,7 +26,7 @@ export default {
   ],
   preview: {
     select: {
-      title: "name",
+      title: "tag.current",
       date: "liveDate"
     },
     prepare({title, date}) {
