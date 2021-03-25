@@ -15,7 +15,7 @@ Reduce page components down to flat array of specific release versions, sent in 
       versions[release._ref == $default][0].component->,
       versions[0]
     ),
-		// Automatically deference any root level component reference
+    // Automatically deference any root level component reference
     defined(_ref) => @->,
   }
 }
